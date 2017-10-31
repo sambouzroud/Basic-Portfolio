@@ -2,27 +2,63 @@ body{
 	background: #e1e3e8;
 
 }
+.contnair{
+	width: 960px;
+	margin: auto;
+}
+.header{
+	background-color: #fff;
+	height: 100px;
+	border: 1px;
+}
+.left{
+	float: left;
+	background-color:#47d7ed;
+	height: 100px;
+	font-size: 50%;
+}
+.right{
+	float: right;
+
+}
+.aboutme{
+	clear: both;
+	margin: 0px;
+	background-color: #fff;
+}
+#Mypic{
+	height: 200px;
+	width: 200px;
+}
 h1{
 	text-align: left;
 	font-size: 50px;
-	background-color: #7bf2e6;
+	background-color: #47d7ed;
 	color: white;	
-	margin:0 0 0 200px;
+	margin: 0px;
 	padding: 10px;
-	border: 10px;
+	
 } 
 h2 {
-	font-size: 50px;
-	background-color: #7bf2e6;
+	font-size:  50px;
+	background-color: #47d7ed;
 	color: white;
+	margin: auto;
 
+}
+nav{
+	font-size: 25px;
+	padding: 20px;
+	color: grey;
 }
 aside{
 	float: right;
-	margin-bottom: 200px;
-	width: 270px;
-	height: 20px;
+	height: 200px;
+	width: 200px;
+	background-color: : #fff;
+
 }
+
 form{
 	margin: 20px auto;
 	width: 320px;
@@ -40,4 +76,6 @@ input[type="text"]{
 }
 footer{
 	border-bottom: 100px;
+	background: grey;
+	text-align: center;
 }
