@@ -2,30 +2,68 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+	<title>contact</title>
 </head>
 <body>
-	<h1>sam bouzroud</h1>
-<div class="info">
-	<h2>contact</h2>
-	<form>
-		<h3>Name</h3>
-		<input type="text" placeholder="name">
-		<h3>Email</h3>
-		<input type="text" placeholder="email">
-		<h3>Message</h3>
-		<input type="text" placeholder="message">
-	</br>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Sam Bouzroud</a>
+	<nav>	
+	    <a href="./contact.html">contact</a>
+		<a href="./portfolio.html">portofolio</a>
+		<a href="./index.html">About</a>
+	</nav>
+</header>
+<div  class="container">
+
+ 		
+	<section class="main-container">
+
+		<h1>Contact</h1>
+		<hr>
+		
+	<form id="contact-form">
+<ul>
+			
+		<li>
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" placeholder="sam bouzroud" required="required">
+	    </li>
+
+       <li>
+		<label for="email">Email</label>
+		<input type="text" name="name" id="email" placeholder="sam bouzroud" required="required">
+	    </li>
+	    <li>
+		<label for="message">Message</label>
+		<textarea id="message" name="message" required="required">	
+		</textarea>
+		>
+	</li>
+</ul>
+	
 		<input type="submit" name="submit">
 	</form>
+</section>
+<section class="sidebar">
+		 	
+ 		<div id="contact">
+ 			<h2>Contact with Me</h2>
+ 			<hr>
+ 		
+		
+			<img  src="../assets/images/FB.png" class="social">
+		    <img src="../assets/images/gmail.png" class="social">
+		    <img  src="../assets/images/github.png" class="social">
+	</div>
+  		</section>
+  	</div>
+<footer>
+	<div class="footer">
+	@:copyright2017 Sam Bouzroud
 </div>
-<aside>
-		<h2>Contact with Me</h2>
-		<img id="FB" src="../assets/images/FB.png">
-		<img id="LD" src="../assets/images/gmail.png">
-		<img id="GH" src="../assets/images/github.png">
-	</aside>
-<footer>copyright2017 sam bouzroud</footer>
+</footer>
 
 </body>
 </html>
